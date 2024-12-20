@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgba(207, 203, 203, 0.555);
+}
+header {
+  display: flex;
+  box-shadow: 1px 1px 1px grey;
+  padding: 1.5rem;
+  /* justify-content: space-between; */
+  background-color: rgb(252, 252, 252);
+}
+.logo {
+  display: flex;
+  margin: auto;
+  font-size: 2rem;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: auto;
+  font-size: 1.2rem;
+}
